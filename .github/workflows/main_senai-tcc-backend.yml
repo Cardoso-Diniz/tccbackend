@@ -54,4 +54,4 @@ jobs:
           app-name: 'senai-tcc-backend'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3AA3FBFF64994C57B3CB7665DB3B9432 }}
-          package:'build'
+          package: .
